@@ -63,7 +63,10 @@ pytest
 
 ## [ngrok](https://dashboard.ngrok.com/get-started/setup/windows) 公网访问
 
+
 ngrok 的免费账户强制显示警告页面（visit site），而付费账户（Pro 或 Enterprise 计划）可以完全禁用此页面。
+
+> 免费版限制：ngrok 免费版隧道有效期为 8 小时，域名随机生成。如需固定域名或更长时间，需升级到付费版。
 
 ```bash
 ngrok http http://localhost:5000
